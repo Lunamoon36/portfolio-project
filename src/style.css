@@ -157,11 +157,16 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-a .github-link {
-  text-decoration: none;
+.github-link {
   color: var(--branding-color);
 }
+.github-link:hover {
+  font-weight: bold;
+}
 
+.cherryPhoto {
+  max-width: 50%;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -181,7 +186,4 @@ a .github-link {
     padding: 0;
     text-align: center;
   }
-}
-.cherryPhoto {
-  max-width: 50%;
 }
